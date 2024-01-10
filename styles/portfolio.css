@@ -13,6 +13,19 @@ body{
     font-weight: 700;
     color: white;
     padding: 8px 20px;
+    margin-top: 30px;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
 /* nav related styles */
 nav{
@@ -41,7 +54,7 @@ nav a{
 
 /* header related styles */
 .header{
-    background-color: #FFF8F3;
+    background-color: #ffebcd ;
     background-image: url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -50,6 +63,10 @@ nav a{
     margin: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner content{
+    max-width: 500px;
 }
 .banner .profile-pic{
     width: 500px;
@@ -67,4 +84,14 @@ nav a{
 }
 .banner-description{
     margin-top: 0;
+}
+
+/* main section styles */
+
+/* about section styles */
+.about{
+    padding: 131px;
+    border-radius: 10px;
+    background-color: #ffebcd;
+    margin: 130px 0;
 }
